@@ -1,0 +1,51 @@
+{
+    abstract
+	id Oct.Items.Stackable.RawMeat
+	type StackedFoodItemType
+	inherit Oct.Items.Stackable
+	
+	name = Raw Meat
+    defectiveNoun = true
+	itemClass = StackedItem
+	category = <Oct.Items.Categories.Food.Meat.Raw>
+	stackLimit = 12
+	indoorDecayDays = 24
+	outdoorDecayDays = 6
+	value = 12
+    carryChance = .125
+	dropSound = OrganicDrop
+    
+    ingredientColors =
+    [
+        color(#91281e)
+        color(#6c1f17)
+    ]
+	
+	prefab = 
+	{
+		type Prefab
+		path = /Art/Items/Meat/Meat.fbx
+		name = Raw Meat
+        behavior = StackedItemBehavior
+	}
+	
+	consumableModifiers = 
+	[
+		{
+			type StackedConsumableStatModifier
+			name = Food
+			delta = 50
+		}
+	]
+}
+{
+	id GOBLIN.Items.Stackable.RawMeat.gobbo
+	type StackedFoodItemType
+	inherit Oct.Items.Stackable.RawMeat
+	
+	name = Raw Goblin
+    subject = true
+    importance = .5
+    importanceRange = .25
+    carryChance = .0625
+}

@@ -1,0 +1,2266 @@
+{
+	id GOBLIN.Characters.Humanoids.gobbo.Variants.Shared
+	type CharacterTypeVariant
+	abstract
+	
+	names = 
+	[
+        Uct
+		Frik
+		Frak
+		Frek
+		Frok
+		Fruk
+		Krekz
+		Krakz
+		Kokz
+		Krukz
+		Streelx
+		Hegs
+		Greeser
+		Sloghiest
+		Wekkyx
+		Cleszeacs
+		Iard
+		Yurd
+		Yard
+		Yord
+		Puird
+		Wrekt
+		Wrokt
+		Wrukt
+		Wrakt
+		Zusb
+		Drelbiold
+		Cheentiakz
+		Obdaar
+		Jurberx
+		Gliadycs
+		Wroig
+		Ealse
+		Dyf
+		Daf
+		Def
+		Duff
+		Dlof
+		Klil
+		Klal
+		Klul
+		Klol
+		Fags
+		Figs
+		Fogs
+		Fugs
+		Ebroin
+		Riv
+		Rav
+		Rov
+		Ruv
+		Hiaka
+		Hiuku
+		Hioko
+		Hieku
+		Orelhas
+		Gniok
+		Gniuk
+		Gniak
+		Gnu
+		Gnebs
+		Frugs
+		Vroz
+		Cronk
+		Pluhkuic
+		Cotok
+		Catak
+		Cetik
+		Cutuak
+		Broitzyts
+		Cluszol
+		Bonk
+		Tonk
+		Fonk
+		Ronk
+		Wonk
+		Gonk
+		Biink
+		Tiink
+		Fiink
+		Riink
+		Wiink
+		Giink
+		Tank
+		Bank
+		Wank
+		Rank
+		Dank
+		Donk
+		Diink
+		Palerma
+		Parvo
+		Duh
+		Doh
+		Nahu
+		DohNut
+		Nat
+		Niit
+		Not
+		Rel
+		Gealb
+		Eagz
+		Ots
+		Plekx
+		Kliorrarx
+		Lekiaz
+		Xuveabs
+		Previozz
+		Jiduikx
+		Jieng
+		Kets
+		Iet
+		Vuct
+		Cleld
+		Chutikz
+		Pritmekz
+		Craaveets
+		Ralkic
+		Clearmots
+		Bronk
+		Ohx
+		Friaz
+		Gloilt
+		Cifsia
+		Cravlel
+		Phissuish
+		Shefosx
+		Eggalkee
+		Brierreah
+		Cafz
+		Thrink
+		Phix
+		Hiaft
+		Cishee
+		Gnibbeenx
+		Wiatealm
+		Flepaq
+		Chering
+		Meggeans
+		Xung
+		Derd
+		Xeekz
+		Prygs
+		Eekx
+		Honzoing
+		Irvaz
+		Trabal
+		Cleelkealk
+		Bliedeerx
+		Srulk
+		Gox
+		Vuts
+		Viocs
+		Blacs
+		Draguts
+		Tonrard
+		Udfobs
+		Learats
+		Huloink
+		Chang
+		Clearte
+		Leftai
+		Kuigsea
+		Pelki
+		Sweehuifz
+		Brorkethea
+		Bhubsiash
+		Luiskoirxi
+		Aaniq
+		Ushe
+		Ins
+		Uigs
+		Grefze
+		Fus
+		Qashaafz
+		Gravash
+		Gobdultea
+		Joigzigs
+		Khafeelai
+		Swong
+		Ilt
+		Haza
+		Pruft
+		Khosh
+		Wremvarx
+		Oisbeax
+		Gratvunk
+		Prustris
+		Sraaglosx
+		Ditid
+		Ttarmek
+		Seji
+		Zinjo
+		Sejix
+		Malak
+		Nuenvan
+		Hokajin
+		Zulkaz
+		Zengu
+	]
+	
+	lexicon = <Oct.Humanoid.Lexicon>
+	
+	cosmeticSlots =
+	[
+		{
+			type CharacterCosmeticSlot
+			
+			name = Body
+			cosmetics =
+			[
+				<Oct.Characters.Humanoids.Body>
+			]
+		}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Head
+			cosmetics =
+			[
+				{
+					id GOBLIN.Characters.gobbo.Head1
+					type HeadCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.Heads.Template
+					
+					name = Gobbo Head
+					headScale = vector(.75, 1, 1)
+					
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Heads/gobboHead1.fbx					
+						name = Gobbo Head
+						physics = false
+						autoGradient = false
+						behavior = SkinnedCharacterCosmeticBehavior
+						
+						material = 
+						{
+							type Material
+							_AOGradientOffset = 0
+							_AOGradientHeight = .75
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.gobbo.Head2
+					type HeadCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.Heads.Template
+					
+					name = Pointy Head
+					headScale = vector(.75, 1, 1)
+					
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Heads/gobboHead2.fbx					
+						name = Pointy Head
+						physics = false
+						autoGradient = false
+						behavior = SkinnedCharacterCosmeticBehavior
+						
+						material = 
+						{
+							type Material
+							_AOGradientOffset = 0
+							_AOGradientHeight = .75
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.gobbo.Head3
+					type HeadCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.Heads.Template
+					
+					name = Sad Head
+					headScale = vector(.75, 1, 1)
+					
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Heads/gobboHead3.fbx					
+						name = Sad Head
+						physics = false
+						autoGradient = false
+						behavior = SkinnedCharacterCosmeticBehavior
+						
+						material = 
+						{
+							type Material
+							_AOGradientOffset = 0
+							_AOGradientHeight = .75
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.gobbo.Head4
+					type HeadCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.Heads.Template
+					
+					name = Ring Head
+					headScale = vector(.75, 1, 1)
+					
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Heads/gobboHeadRing1.fbx					
+						name = Ring Head
+						physics = false
+						autoGradient = false
+						behavior = SkinnedCharacterCosmeticBehavior
+						
+						material = 
+						{
+							type Material
+							_AOGradientOffset = 0
+							_AOGradientHeight = .75
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.gobbo.Head5
+					type HeadCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.Heads.Template
+					
+					name = Rings Head
+					headScale = vector(.75, 1, 1)
+					
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Heads/gobboHeadRing2.fbx					
+						name = Rings Head
+						physics = false
+						autoGradient = false
+						behavior = SkinnedCharacterCosmeticBehavior
+						
+						material = 
+						{
+							type Material
+							_AOGradientOffset = 0
+							_AOGradientHeight = .75
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.gobbo.Head6
+					type HeadCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.Heads.Template
+					
+					name = Mickey Head
+					headScale = vector(.75, 1, 1)
+					
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Heads/gobboHead4.fbx					
+						name = Mickey Head
+						physics = false
+						autoGradient = false
+						behavior = SkinnedCharacterCosmeticBehavior
+						
+						material = 
+						{
+							type Material
+							_AOGradientOffset = 0
+							_AOGradientHeight = .75
+						}
+					}
+				}
+			]
+		}	
+		{
+			type CharacterCosmeticSlot
+			
+			name = Mouth
+			cosmetics =
+			[
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Mouth1
+					type MouthCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.MouthTemplate
+					
+					name = GobMouth1
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Mouth/GobMouth1.fbx					
+						name = GobMouth1
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Mouth2
+					type MouthCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.MouthTemplate
+					
+					name = GobMouth2
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Mouth/GobMouth2.fbx					
+						name = GobMouth2
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Mouth3
+					type MouthCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.MouthTemplate
+					
+					name = GobMouth3
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Mouth/GobMouth3.fbx					
+						name = GobMouth3
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Mouth4
+					type MouthCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.MouthTemplate
+					
+					name = GobMouth4
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Mouth/GobMouth4.fbx					
+						name = GobMouth4
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+			]
+		}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Eyes
+			cosmetics =
+			[
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Eye1
+					type MirroredStaticCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.EyeTemplate
+					
+					name = GobEye1
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Eyes/GobEye1.fbx					
+						name = GobEye1
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Eye2
+					type MirroredStaticCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.EyeTemplate
+					
+					name = GobEye2
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Eyes/GobEye2.fbx					
+						name = GobEye2
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Eye3
+					type MirroredStaticCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.EyeTemplate
+					
+					name = GobEye3
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Eyes/GobEye3.fbx					
+						name = GobEye3
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Eye4
+					type MirroredStaticCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.EyeTemplate
+					
+					name = GobEye4
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Eyes/GobEye4.fbx					
+						name = GobEye4
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+			]
+		}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Nose
+			cosmetics =
+			[
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Nose1
+					type StaticCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.NoseTemplate
+					
+					name = GobNose1
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Noses/GobNose1.fbx				
+						name = GobNose1
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Nose2
+					type StaticCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.NoseTemplate
+					
+					name = GobNose2
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Noses/GobNose2.fbx				
+						name = GobNose2
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Nose3
+					type StaticCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.NoseTemplate
+					
+					name = GobNose3
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Noses/GobNose3.fbx				
+						name = GobNose3
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Nose4
+					type StaticCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.NoseTemplate
+					
+					name = GobNose4
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Noses/GobNose4.fbx				
+						name = GobNose4
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+			]
+		}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Eyebrows
+			cosmetics =
+			[
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Eyebrow1
+					type MirroredStaticCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.EyebrowTemplate
+					
+					name = GobScar1
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Eyebrows/Eyebrow1.fbx				
+						name = GobScar1
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Eyebrow2
+					type MirroredStaticCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.EyebrowTemplate
+					
+					name = GobScar2
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Eyebrows/Eyebrow2.fbx				
+						name = GobScar2
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Eyebrow3
+					type MirroredStaticCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.EyebrowTemplate
+					
+					name = GobScar3
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Eyebrows/Eyebrow3.fbx				
+						name = GobScar3
+						physics = false
+						behavior = 
+						{
+							type StaticCharacterCosmeticBehavior
+							boneName = Face
+						}
+					}
+				}
+			]
+		}
+		{
+			type CharacterCosmeticSlot
+			
+			name = Hair
+			cosmetics = 
+			[
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Hair1
+					type HairCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.HairTemplate
+					
+					name = Long
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/knot1.fbx					
+						name = Long
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+					capPrefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/xsknot1.fbx					
+						name = GobboxsKnot
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Hair2
+					type HairCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.HairTemplate
+					
+					name = Short
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/xsknot1.fbx					
+						name = Short
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+					capPrefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/xsknot1.fbx					
+						name = GobboxsKnot
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Hair3
+					type HairCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.HairTemplate
+					
+					name = Bone1
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/knotbone1.fbx					
+						name = Bone1
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+					capPrefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/xsknot1.fbx					
+						name = GobboxsKnot
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Hair4
+					type HairCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.HairTemplate
+					
+					name = Bone2
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/knotbone2.fbx					
+						name = Bone2
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+					capPrefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/xsknot1.fbx					
+						name = GobboxsKnot
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Hair5
+					type HairCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.HairTemplate
+					
+					name = Flower
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/knotflower.fbx					
+						name = Flower
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+					capPrefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/xsknot1.fbx					
+						name = GobboxsKnot
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+				}
+				{
+					id GOBLIN.Characters.Humanoids.gobbo.Hair6
+					type HairCharacterCosmetic
+					inherit GOBLIN.Characters.Humanoids.gobbo.HairTemplate
+					
+					name = Blob
+					prefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/knot2.fbx					
+						name = Blob
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+					capPrefab = 
+					{
+						type Prefab
+						path = /Art/characters/gobbo/Hair/xsknot1.fbx					
+						name = GobboxsKnot
+						physics = false
+                        behavior = 
+                        {
+                            type StaticCharacterCosmeticBehavior
+                            boneName = Face
+                        }
+						material =
+						{
+							type Material
+							_AlbedoMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01.png, bilinear, mips)
+							_NormalMap = tex(/Art/Characters/Humanoid/Hair/hairPattern_01_nrm.png, bilinear, mips, normals)
+						}
+					}
+				}
+			]
+		}
+	]
+     
+    audio = 
+    [
+        {
+            type AudioBankHandle
+            name = Grunt
+            handle = 
+            {
+                type AudioHandles
+            }
+        }
+        {
+            type AudioBankHandle
+            name = Hurt
+            handle = 
+            {
+                type AudioHandles
+            }
+        }
+        {
+            type AudioBankHandle
+            name = Death
+            handle = 
+            {
+                type AudioHandles
+            }
+        }
+        {
+            type AudioBankHandle
+            name = Cheer
+            handle = 
+            {
+                type AudioHandles
+            }
+        }
+    ]
+}
+// goblin prefab general		
+{
+	id GOBLIN.Characters.Humanoids.gobbo
+	type CharacterType
+	inherit Oct.Characters.Humanoids.Humanoid
+	
+	name = Goblin
+	plural = Goblins
+	corpseType = <GOBLIN.Items.Corpse.Humanoid.gobbo>
+    
+	prefab = 
+	{
+		type Prefab
+		path = /Art/characters/gobbo/Orc.fbx
+		name = Goblin
+        behavior = CharacterBehavior
+		scale = .73
+        
+        animations = 
+        [
+            {
+                type Prefab
+                path = /Art/characters/Humanoid/Animations/HumanoidAnims.fbx
+            }
+            {
+                type Prefab
+                path = /Art/characters/Humanoid/Animations/HumanoidAnims_Blender2_93.fbx
+            }
+        ]
+	}
+	
+	skinColorFrom = color(.005, .638, .455)
+    skinColorTo = color(.638, .186, .122)
+	hairColorFrom = color(.005, .638, .455)
+    hairColorTo = color(.638, .186, .122)
+    
+    hideName = Goblin Skin
+    leatherName = Goblin Leather
+    hideLeatherImportanceRange = .25
+    hideColor = color(.37, .36, .19)
+	
+	variants =
+	[
+		{
+			id GOBLIN.Characters.Humanoids.gobbo.Variants.Male
+			type CharacterTypeVariant
+			inherit GOBLIN.Characters.Humanoids.gobbo.Variants.Shared
+			
+			name = Male
+			gender = Male
+            weight = 1			
+            
+            voices =
+            [
+                OrcMaleVoice1
+            ]
+			
+			cosmeticSlots =
+			[
+				?(name == Hair) {
+					type CharacterCosmeticSlot
+					
+					cosmetics = 
+					[
+						
+					]
+				}
+			]
+             
+            audio = 
+            [
+                ?(name == Grunt) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+						audioChances = 
+						[
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Grunt/Grunt1.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Grunt/Grunt2.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Grunt/Grunt3.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Grunt/Grunt4.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Grunt/Grunt5.wav
+									globalCooldown = 3
+								}
+							}
+                        ]
+                    }
+                }
+                ?(name == Hurt) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+						audioChances = 
+						[
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Hurt/Hurt1.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio = 
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Hurt/Hurt2.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio = 
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Male/Hurt/Hurt3.wav
+									globalCooldown = 3
+								}
+							}
+						]
+                    }
+                }
+                ?(name == Death) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+                        audioChances = 
+                        [
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death1.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death2.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death3.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death4.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death5.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Death/Death6.wav
+                                    globalCooldown = 3
+                                }
+                            }                    
+                        ]
+                    }
+                }
+                ?(name == Cheer) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+                        audioChances = 
+                        [
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_1_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_1_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_1_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_2_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_2_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_2_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_3_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_3_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Woo_3_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_1_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_1_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_1_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_2_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_2_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_2_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_3_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_3_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_3_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_4_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_4_normal.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Male/Cheer/Yeah_4_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 19
+                                audio = null
+                            }
+                        ]
+                    }
+                }
+            ]
+		}
+		{
+			id GOBLIN.Characters.Humanoids.gobbo.Variants.Female
+			type CharacterTypeVariant
+			inherit GOBLIN.Characters.Humanoids.gobbo.Variants.Shared
+			
+			name = Female
+			gender = Female
+            weight = 1
+			
+            voices =
+            [
+                OrcFemaleVoice1
+            ]
+			
+			cosmeticSlots =
+			[
+				?(name == Hair) {
+					type CharacterCosmeticSlot
+					
+				cosmetics = 
+					[
+						
+					]
+				}
+			]
+            
+            audio = 
+            [
+                ?(name == Grunt) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+						audioChances = 
+						[
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Grunt/Grunt1.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Grunt/Grunt2.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Grunt/Grunt3.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Grunt/Grunt4.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Grunt/Grunt5.wav
+									globalCooldown = 3
+								}
+							}
+                        ]
+                    }
+                }
+				?(name == Hurt) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+						audioChances = 
+						[
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt1.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt2.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt3.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio =
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt4.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio = 
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt5.wav
+									globalCooldown = 3
+								}
+							}
+							{
+								type AudioHandleChance
+								chance = 1
+								audio = 
+								{
+									type AudioClipHandle
+									path = /SFX/Orc/Female/Hurt/Hurt6.wav
+									globalCooldown = 3
+								}
+							}
+						]
+                    }
+                }
+                ?(name == Death) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+                        audioChances = 
+                        [
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death1.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death2.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death3.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death4.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death5.wav
+                                    globalCooldown = 3
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Death/Death6.wav
+                                    globalCooldown = 3
+                                }
+                            }                    
+                        ]
+                    }
+                }
+                ?(name == Cheer) {
+                    type AudioBankHandle
+                    handle = 
+                    {
+                        type AudioHandles
+                        audioChances = 
+                        [
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_1_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_1.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_1_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_2_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_2.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_2_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_3_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_3.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Yeah_3_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_1_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_1.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_1_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_2_low.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_2.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 1
+                                audio =
+                                {
+                                    type AudioClipHandle
+                                    path = /SFX/Orc/Female/Cheer/Woo_2_high.wav
+                                    globalCooldown = 5
+                                }
+                            }
+                            {
+                                type AudioHandleChance
+                                chance = 19
+                                audio = null
+                            }
+                        ]
+                    }
+                }
+            ]
+		}
+        {
+			id GOBLIN.Characters.Humanoids.gobbo.Variants.NonBinary
+			type CharacterTypeVariant
+			inherit GOBLIN.Characters.Humanoids.gobbo.Variants.Male
+			inherit GOBLIN.Characters.Humanoids.gobbo.Variants.Female
+			
+			name = Nonbinary
+			gender = Nonbinary
+            weight = 1
+		}
+	]
+	
+	opinions = 
+	[
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Characters.Humanoids.Orc>
+			center = -0.01
+			range = 1.25
+			exp = 4
+		}
+				{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <GOBLIN.Characters.Humanoids.gobbo>
+			center = .25
+			range = 1.25
+			exp = 4
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Characters.Humanoids.Human>
+			center = -.115
+			range = 1.25
+			exp = 3
+            minSimilarity = -.75
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.RawMeat.Boar>
+			center = .5
+			range = 1.5
+            exp = 2
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.RawMeat.Cow>
+			center = -.5
+			range = 1.5
+            exp = 2
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.RawMeat.Human>
+			center = 0
+			range = 1
+            exp = 3
+            minSimilarity = -1
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.RawMeat.Orc>
+			center = .25
+			range = 1.25
+            exp = 2
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.RawMeat.Imp>
+			center = .5
+			range = 1.5
+            exp = 2
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.CookedMeat.Boar>
+			center = -.5
+			range = 1.5
+			exp = 3
+            minSimilarity = -.5
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.CookedMeat.Cow>
+			center = -.5
+			range = 1.5
+			exp = 3
+            minSimilarity = -.5
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.CookedMeat.Human>
+			center = .5
+			range = 1.5
+			exp = 4
+            minSimilarity = -.5
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.CookedMeat.Orc>
+			center = .25
+			range = 1.25
+			exp = 3
+            minSimilarity = -.75
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.CookedMeat.Imp>
+			center = -.5
+			range = 1.5
+			exp = 4
+            minSimilarity = -.5
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.Octoberberries>
+			center = .125
+			range = 1.125
+			exp = 4
+            minSimilarity = -.875
+		}
+		{
+			type ExplicitCharacterTypeOpinionRange
+			subject = <Oct.Items.Stackable.TravelMeals>
+			center = .125
+			range = 1.125
+			exp = 8
+            minSimilarity = 0
+		}
+		{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <Oct.Characters.Animals.Boar>
+			center = -.25
+			range = 1.25
+            exp = 3
+            minSimilarity = -.75
+		}
+		{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <Oct.Characters.Animals.Cow>
+			center = -.25
+			range = 1.25
+            exp = 3
+            minSimilarity = -.75
+		}
+		{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <Oct.Characters.Humanoids.Orc>
+			center = .25
+			range = 1.25
+            exp = 3
+		}
+				{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <GOBLIN.Characters.Humanoids.gobbo>
+			center = .25
+			range = 1.25
+            exp = 3
+		}
+		{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <Oct.Characters.Humanoids.Human>
+			center = 0.25
+			range = 1
+            exp = 2
+		}
+		{
+			type CorpseProductCharacterTypeOpinionRange
+			characterType = <Oct.Characters.Monsters.LesserImp>
+			center = -.25
+			range = 1.25
+            exp = 3
+		}
+	]
+	
+	animations =
+	[
+		{
+			type AnimationTrack			
+			name = Armature|React
+			notifies = 
+			[
+				{
+					type AudioHandleNotify
+					time = 0
+					name = Hurt
+				}
+			]
+		}
+	]
+}
+// cosmetic prefabs IDs
+
+//mouth
+{
+	id GOBLIN.Characters.Humanoids.gobbo.MouthTemplate
+	type MouthCharacterCosmetic
+	abstract
+	
+	headScaled = vector(1, 0, 0)
+    flapScale = vector(.5, 1, 1)
+	
+	boneTransforms = 
+	[
+		{
+			type StaticCharacterCosmeticTransform
+			bone = Face
+			rotation = rotation(0, 0, 0)
+			translation = vector(0, -.06, .12)
+		}
+	]
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            from = color(.75, .75, .75)
+            to = color(1, 1, 1)
+            materials = 
+            [
+                Teeth
+            ]
+        }
+    ]
+	
+	scaleRange = vector(.25, .25, 0)
+	offsetRange = vector(0, .01, 0)
+}
+//eyes
+{
+	id GOBLIN.Characters.Humanoids.gobbo.EyeTemplate
+	type MirroredStaticCharacterCosmetic
+	abstract
+	
+	headScaled = vector(1.5, 1.5, 1.5)
+	
+	boneTransforms = 
+	[
+		{
+			type StaticCharacterCosmeticTransform
+			bone = Face
+			rotation = rotation(0, 15, 0)
+			translation = vector(.01, .03, .144)
+		}
+	]
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            from = color(0, 0, 0)
+            to = color(.25, .25, .25)
+            materials = 
+            [
+                Iris
+            ]
+        }
+    ]
+	
+	scaleRange = vector(.4, .4, .3)
+	offsetRange = vector(.02, .01, 0)
+}
+//heads
+{
+	id GOBLIN.Characters.Humanoids.gobbo.Heads.Template
+	type HeadCharacterCosmetic
+	abstract
+
+	headScaled = vector(1.2, 1.2, 1.2)
+
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            materials = 
+            [
+                Head
+            ]
+            inheritSkin = 1
+        }
+    ]
+}
+//nose
+{
+	id GOBLIN.Characters.Humanoids.gobbo.NoseTemplate
+	type StaticCharacterCosmetic
+	abstract
+	
+	headScaled = vector(1, 1, 0)
+	
+	boneTransforms = 
+	[
+		{
+			type StaticCharacterCosmeticTransform
+			bone = Face
+			rotation = rotation(0, 0, 0)
+			translation = vector(0, 0, .125)
+		}
+	]
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            from = color(.05, .05, .05)
+            to = color(.25, .25, .25)
+            materials = 
+            [
+                Skin
+            ]
+        }
+    ]
+	
+	scaleRange = vector(.25, .2, .2)
+	offsetRange = vector(.001, .01, 0)
+}
+//eyebrow
+{
+	id GOBLIN.Characters.Humanoids.gobbo.EyebrowTemplate
+	type MirroredStaticCharacterCosmetic
+	abstract
+	
+	headScaled = vector(1, 0, 0)
+	
+	boneTransforms = 
+	[
+		{
+			type StaticCharacterCosmeticTransform
+			bone = Face
+			rotation = rotation(0, 15, 0)
+			translation = vector(.015, .06, .140)
+		}
+	]
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            linearColor = true
+            from = color(0, 0, 0)
+            to = color(.5, .5, .5)
+            materials = 
+            [
+                EyebrowHair
+            ]
+            inheritHair = .75
+        }
+    ]
+
+	scaleRange = vector(.2, .2, .2)
+	offsetRange = vector(.015, .005, 0)
+}
+//hair
+{
+	id GOBLIN.Characters.Humanoids.gobbo.HairTemplate
+	type StaticCharacterCosmetic
+	abstract
+
+	headScaled = vector(.78, .78, .78)
+
+	boneTransforms = 
+	[
+		{
+			type StaticCharacterCosmeticTransform
+			bone = Face
+			rotation = rotation(0, 0, 0)
+			translation = vector(0, -.01, -0.03)
+		}
+	]
+					
+    instanceColors =
+    [
+        {
+            type InstanceCosmeticMaterialColor
+            linearColor = true
+            from = color(0.337, 0.339, 1)
+            to = color(0.1, 0.1, 0.1)
+            materials = 
+            [
+                hair
+            ]
+            inheritHair = 1
+        }
+		{
+            type InstanceCosmeticMaterialColor
+            from = color(1, .963, .586)
+            to = color(1, 1, 1)
+            materials = 
+            [
+                bone
+            ]
+        }
+		{
+            type InstanceCosmeticMaterialColor
+            from = color(.904, .044, .651)
+            to = color(.904, .644, .012)
+            materials = 
+            [
+                flower
+            ]
+        }
+    ]
+}

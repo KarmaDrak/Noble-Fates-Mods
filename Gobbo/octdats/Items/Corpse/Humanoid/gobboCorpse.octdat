@@ -1,0 +1,49 @@
+{
+	id GOBLIN.Items.Corpse.Humanoid.gobbo
+	type CorpseInstancedItemType
+	inherit Oct.Items.Corpse.Humanoid
+	
+	name = Goblin Corpse
+    characterType = <GOBLIN.Characters.Humanoids.gobbo>
+    rawMeatType = <GOBLIN.Items.Stackable.RawMeat.gobbo>
+    cookedMeatType = <GOBLIN.Items.Stackable.CookedMeat.gobbo>
+    maxDurability = 90
+	
+    prefab = 
+	{
+		type Prefab
+		path = /Art/characters/Human/CorpseItem.fbx
+		name = Goblin Corpse
+        behavior = CorpseItemBehavior
+        
+        material =
+        {
+            type Material
+            _Color = color(.3, .3, .0375)
+        }
+	}
+    
+    stats =
+	[
+		{
+			type InstancedItemStat
+			name = Value
+			formula = QualityQualityHalfDurability
+			min = 0
+			max = 3
+		}
+	]
+	
+	salvage =
+	[
+		{
+			type ExplicitItemSalvageComponent
+			itemType = <GOBLIN.Items.Stackable.RawMeat.gobbo>
+			count = 15
+		}
+		{
+			type HideItemSalvageComponent
+			count = 10
+		}
+	]
+}
